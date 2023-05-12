@@ -1,15 +1,8 @@
-<<<<<<< HEAD
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-//Complete the following function.
-
-/*
-void calculate_the_maximum(int n, int k) {
-  //Write your code here.
-}
-*/
 
 int main() {
     int n, k,e;
@@ -33,40 +26,3 @@ int main() {
     printf("%d\n", mxXor);
     
     return 0;
-=======
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-//Complete the following function.
-
-/*
-void calculate_the_maximum(int n, int k) {
-  //Write your code here.
-}
-*/
-
-int main() {
-    int n, k,e;
-  
-    scanf("%d %d", &n, &k);
-    scanf("%d %d", &n, &k);
-    int mxAnd = 0, mxOr = 0, mxXor = 0;
-
-    for(int i = 1; i <= n; i++){
-        for(int j = i + 1; j <= n; j++){
-            if(mxAnd < (i & j) && (i & j) < k)
-                mxAnd = i & j;
-            if(mxOr < (i | j) && (i | j) < k)
-                mxOr = i | j;
-            if(mxXor < (i ^ j) && (i ^ j) < k)
-                mxXor = i ^ j;
-        }
-    }
-    printf("%d\n", mxAnd);
-    printf("%d\n", mxOr);
-    printf("%d\n", mxXor);
-    
-    return 0;
->>>>>>> f72bc80a7e41a14c4f2f09535f7f1b4ecf9d2126
-}

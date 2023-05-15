@@ -10,9 +10,9 @@ int main()
     for(i=a;i<=b;i++)
     {
         if(i>9 && i%2)
-            printf("odd\n");
+            printf("odd number\n");
         else if(i>9 && i%2==0)
-            printf("even\n");
+            printf("even number\n");
         else
             printf("%s\n",ch[i]);
 

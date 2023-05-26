@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * This stores the total number of books in each of the shelf.
+ * This stores the total number of books in each of the shelfs.
  */
 int* total_number_of_books;
 /*
